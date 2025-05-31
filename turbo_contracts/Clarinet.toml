@@ -1,0 +1,19 @@
+[project]
+name = 'turbo_contracts'
+description = ''
+authors = []
+telemetry = true
+cache_dir = '.\.cache'
+requirements = []
+[contracts.warehouse_with_default_value_initialization]
+path = 'contracts/warehouse_with_default_value_initialization.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
