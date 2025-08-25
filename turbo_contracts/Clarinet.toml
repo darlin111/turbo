@@ -10,6 +10,11 @@ path = 'contracts/storage_incentives.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.vote_change_allowed]
+path = 'contracts/vote_change_allowed.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.warehouse_with_default_value_initialization]
 path = 'contracts/warehouse_with_default_value_initialization.clar'
 clarity_version = 2
