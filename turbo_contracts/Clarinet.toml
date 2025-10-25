@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.storage_and_daily_update_limits]
+path = 'contracts/storage_and_daily_update_limits.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.storage_incentives]
 path = 'contracts/storage_incentives.clar'
 clarity_version = 2
